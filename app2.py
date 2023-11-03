@@ -10,7 +10,7 @@ total_score = round(fchina + fmath + finfo, 2)
 average_score = round(total_score / 3, 2)
 
 # 判斷是否及格
-result = "合格" if total_score >= 60 else "不合格"
+result = "合格" if average_score >= 60 else "不合格"
 
 # 印出學生資料
 print("-" * 30)
